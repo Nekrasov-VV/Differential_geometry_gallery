@@ -1,0 +1,51 @@
+﻿\documentclass[10pt]{beamer}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{pgf}
+\usepackage{import}
+% Данные для заголовочного слайда
+\title{Галерея дифференциальной геометрии}
+\institute{Механико-математический факультет МГУ}
+\author{В.~В.~Некрасов}
+\date{2020}
+\usefonttheme[onlymath]{serif}
+\usecolortheme{crane}
+\bibliographystyle{plainnat}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{О чём эта презентация?}
+Представлены изображения кривых, поверхностей и других геометрических объектов, с которыми мне удалось встретиться в курсе дифференциальной геометрии.
+
+Большая часть номеров --- это домашние задачи из сбоника \cite{1}.
+
+Изображения получены с помощью python-пакета matplotlib.
+\end{frame}
+
+\begin{frame}{№2.18 \cite{1}}
+  \[y^2+x^2=8x, y^2=\frac{x^3}{2-x}\]
+	\centering
+
+	\fbox{\import{Images/Curves}{2_18.pgf} }
+\end{frame}
+
+\begin{frame}{№2.19 \cite{1}}
+  \[x^2=4y, y=\frac{8}{x^2+4}\]
+	\centering
+
+	\fbox{\import{Images/Curves}{2_19.pgf} }
+\end{frame}
+
+\begin{frame}{Список используемой литературы}
+\begin{thebibliography}{3} 
+\bibitem{1} МИЩЕНКО А. С, СОЛОВЬЕВ Ю. П., ФОМЕНКО А. Т. Сборник задач по дифференциальной геометрии и топологии: Учеб. пособие для вузов.—2-е изд., перераб. и доп.—М.: Издательство физико-математическойлитературы, 2004.—412 с—ISBN 5-94052-078-2.
+\end{thebibliography}
+
+\end{frame}
+
+\end{document}
