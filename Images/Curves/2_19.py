@@ -1,6 +1,6 @@
 ﻿from pylab import *
-plt.rc("text",usetex=True)
-plt.figure(figsize=(5,3))
+rc("text",usetex=True)
+figure(figsize=(5,3))
 #--------------------------------------
 x=linspace(-10,10,100)
 y1=(x**2)/4
