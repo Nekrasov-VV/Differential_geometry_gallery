@@ -1,2 +1,2 @@
 # Differential_geometry_gallery
- Pictures of objects that we have met in the course of differential geometry
+Изображения геометрических объектов, которые изучаются в курсе дифференциальной геометрии на мехмате МГУ. См. /main.pdf
